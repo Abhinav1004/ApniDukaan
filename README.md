@@ -26,5 +26,5 @@ It has also a recommendation engine to recommend products to the customers, and 
 
 ## Other Requirements 
 
-1. Install **RabbitMQ** on your machine using this ![Link](https://www.rabbitmq.com/download.html)
+1. Install **RabbitMQ** on your machine using this [Link](https://www.rabbitmq.com/download.html)
 
