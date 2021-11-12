@@ -10,6 +10,8 @@ It has also a recommendation engine to recommend products to the customers, and 
 • Managing Customer Orders on the shopping website    
 • Send asynchronous notifications emails to customers using Celery with RabbitMQ as message broker  
 • Monitor Celery messaging queues using Flower  
+• Integrate Payment Gateway to Project
+• Generate PDF Invoices and send it to customer email
 
 # Installation
 

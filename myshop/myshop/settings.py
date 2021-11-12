@@ -46,6 +46,7 @@ INSTALLED_APPS = [
     'shop.apps.ShopConfig',
     'cart.apps.CartConfig',
     'orders.apps.OrdersConfig',
+    'payment.apps.PaymentConfig',
 ]
 
 MIDDLEWARE = [
@@ -133,3 +134,20 @@ STATIC_URL = '/static/'
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
+
+
+# Braintree account credentials
+
+# Braintree settings
+BRAINTREE_MERCHANT_ID = 'hndc62w8tsmwn48w'  # Merchant ID
+BRAINTREE_PUBLIC_KEY = '494wqd5hv6k68byx'   # Public Key
+BRAINTREE_PRIVATE_KEY = 'a14ef807fa27e4b0a6b65f960f529a7e'  # Private key
+
+import braintree
+
+BRAINTREE_CONF = braintree.Configuration(
+                braintree.Environment.Sandbox,
+                BRAINTREE_MERCHANT_ID,
+                BRAINTREE_PUBLIC_KEY,
+                BRAINTREE_PRIVATE_KEY
+                )
