@@ -6,12 +6,15 @@ It has also a recommendation engine to recommend products to the customers, and 
 
 # Features Implemented
 
-• Creating a Product Catalog and a shopping cart using Django Sessions    
-• Managing Customer Orders on the shopping website    
-• Send asynchronous notifications emails to customers using Celery with RabbitMQ as message broker  
-• Monitor Celery messaging queues using Flower  
-• Integrate Payment Gateway to Project  
-• Generate PDF Invoices and send it to customer email
+1. Creating a Product Catalog and a shopping cart using Django Sessions    
+2. Managing Customer Orders on the shopping website    
+3. Send asynchronous notifications emails to customers using Celery with RabbitMQ as message broker  
+4. Monitor Celery messaging queues using Flower  
+5. Integrate Payment Gateway to Project  
+6. Generate PDF Invoices and send it to customer email
+7. Discount Coupons on products
+8. Translating the web page  to another language
+9. Recommending Similar Products  
 
 # Installation
 
