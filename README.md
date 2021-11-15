@@ -13,8 +13,9 @@ It has also a recommendation engine to recommend products to the customers, and 
 5. Integrate Payment Gateway to Project  
 6. Generate PDF Invoices and send it to customer email
 7. Discount Coupons on products
-8. Translating the web page  to another language
-9. Recommending Similar Products  
+8. Option to translate the web page to another language
+9. Recommending Similar Products based on previous purchases
+
 
 # Installation
 
@@ -32,4 +33,6 @@ It has also a recommendation engine to recommend products to the customers, and 
 ## Other Requirements 
 
 1. Install **RabbitMQ** on your machine using this [Link](https://www.rabbitmq.com/download.html)
-
+2. Install **GetText** on your  machine
+    * Ubuntu
+        sudo apt-get install -y gettext
