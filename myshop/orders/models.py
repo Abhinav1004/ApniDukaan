@@ -27,6 +27,10 @@ class Order(models.Model):
     def __str__(self):
         return f'Order {self.id}'
     
+    def get_discount(self):
+        total_cost = sum(item.get_cost() for item in self.items.all())
+        return total_cost * (self.discount / Decimal(100))
+
     def get_total_cost(self):
         total_cost = sum(item.get_cost() for item in self.items.all())
         return total_cost - total_cost * (self.discount / Decimal(100))
