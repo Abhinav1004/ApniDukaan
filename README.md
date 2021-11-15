@@ -35,4 +35,4 @@ It has also a recommendation engine to recommend products to the customers, and 
 1. Install **RabbitMQ** on your machine using this [Link](https://www.rabbitmq.com/download.html)
 2. Install **GetText** on your  machine
     * Ubuntu
-        sudo apt-get install -y gettext
+        `sudo apt-get install -y gettext`
